@@ -1,0 +1,22 @@
+									-App-
+							(infoLoaded, currUser, token, appId)
+							    logout(),login(),signup->
+
+								   User Context 						
+						  (currUser,hasAppliedtoJob, applyToJob)
+   								login(),signup()->
+														
+Navigation---------------------------------------------------------Routes (*= auth required)
+logout()	
+
+			 /                 /companies			/companies/:handle	   /jobs			   /login	           /signup		         /profile
+	
+		  	Home ------------ CompanyList*----------- Company Detail*-----------JobList------------------LoginForm-----------SignupForm----------------ProfileForm*
+				             (companies)		  (company)			 (jobs)	        (formData,formErrors)  (formData,formErrors) (formData,formErrors,saveConfirmed)
+	
+				    Search Form  - CompanyCard	JobCardList	     JobCardList----SearchForm      ----------------------Alert-------------------------
+			     	  (searchTerm)	 (company)		   (jobs)		  (jobs)     (searchTerm)				 (typeMessage)
+				  searchfor()							
+			
+										  JobCard		 JobCard
+										   (job)		  (job)

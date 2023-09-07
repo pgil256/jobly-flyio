@@ -1,0 +1,51 @@
+/* Global Styles for smoother fonts and transitions */
+body {
+    font-family: 'Arial', sans-serif;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Styling for list */
+#list {
+    border: 1px solid rgba(0, 0, 0, 0.1); /* Light border for a subtle look */
+    background-color: rgba(0, 0, 0, 0.02); /* Soft background color */
+    color: black;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 2px 3px 15px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    transition: all 0.3s ease-in-out;
+}
+
+#list:hover {
+    box-shadow: 2px 5px 18px rgba(0, 0, 0, 0.2);
+}
+
+/* Styling for detail */
+#detail {
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 15px; 
+    background-color: rgba(0, 0, 0, 0.03); 
+    box-shadow: 2px 3px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+#detail:hover {
+    box-shadow: 2px 5px 18px rgba(0, 0, 0, 0.2);
+}
+
+/* Styling for card */
+#card {
+    border: 2px solid rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+    margin: 15px;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.02);
+    box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+#card:hover {
+    transform: translateY(-5px); 
+    box-shadow: 2px 5px 18px rgba(0, 0, 0, 0.2);
+}
