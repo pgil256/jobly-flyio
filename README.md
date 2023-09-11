@@ -1,10 +1,10 @@
 # Jobly Flyio
 
 ## Overview
-**Jobly Flyio** is a web application designed to assist users in managing and organizing their tasks and responsibilities. The application is built with a frontend-backend architecture, utilizing modern web technologies.
 
-## Deployment URL
-The app is deployed at: [https://https://jobly-app.fly.dev/](#)
+🌐 [jobly-app.fly.dev/](https://jobly-app.fly.dev/)
+
+**Jobly Flyio** is a web application designed to assist users in managing and organizing their tasks and responsibilities. The application is built with a frontend-backend architecture, utilizing modern web technologies.
 
 ## Features
 - **Backend**: Provides API endpoints for data retrieval, insertion, and modification.
